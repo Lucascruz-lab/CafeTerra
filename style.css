@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#cabeçalho{
+    background-image: url('images/imagemCabeçalho.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#NossosBlends{
+    background-color: #f5efe6;
+}
+
+.cartões-Blends {
+    padding: 10px;
+    background-color: #f5efe6;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    height: 200px;
+}
+
+.cartões-Processo img{
+    width: 80px;
+    height: auto;
+}
+
+.cartões-Processo {
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.cartões-Depoimentos{
+    padding: 10px;
+    background-color: #f5efe6;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    height: 200px;
+}
