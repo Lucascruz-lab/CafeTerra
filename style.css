@@ -112,7 +112,7 @@ button {
     border: #4b2e2e;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 #NossosBlends {
@@ -130,7 +130,7 @@ button {
     background-color: #f5efe6;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,7 +295,7 @@ button {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 40px;
     row-gap: 20px;
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;
 }
 
