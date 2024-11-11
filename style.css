@@ -31,10 +31,9 @@ html, body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(5px); /* Aplica o desfoque */
+    filter: blur(8px); /* Aplica o desfoque */
     z-index: -1; /* Coloca a imagem desfocada atrás do conteúdo */
 }
-
 
 
 #cabeçalho-menu{
@@ -116,24 +115,95 @@ button {
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-#NossosBlends{
+#NossosBlends {
     background-color: #f5efe6;
-    padding: 20px;
+    color: #4b2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100vh;
+    padding: 20px;
 }
 
-.cartões-Blends {
-    padding: 10px;
+.blend{
     background-color: #f5efe6;
+    padding: 15px;
+    border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    width: 250px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
 }
 
-.cartões-Processo img{
-    width: 80px;
+.cartoes-blends{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px; 
+    margin-top: 30px;  
+}
+
+.blend h4 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+
+.blend p {
+    font-size: 24px;
+    color: #4b2e2e;
+    font-weight: 400;
+    text-align: left;
+    margin: 2px 0;
+    
+}
+
+
+.cartoes-blends .blend img {
+    width: 400px;
     height: auto;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+#NossosBlends h2 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+#NossosBlends p{
+    font-size: 24px;
+    color: #4b2e2e;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px 0;
+}
+
+#chamada-blend{
+    font-family: "Anton SC", sans-serif;
+    margin-top: 30px;
+}
+
+#NossosBlends button {
+    background-color: #e0e8d3;
+    border: 1px solid #4b2e2e;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*.cartões-Processo img{
+    width: 200px;
+    height: 200px;
 }
 
 .cartões-Processo {
@@ -161,3 +231,4 @@ button {
     width: 250px;
     height: 200px;
 }
+*/
