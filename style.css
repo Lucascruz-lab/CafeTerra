@@ -201,26 +201,131 @@ button {
     transition: background-color 0.3s;
 }
 
-/*.cartões-Processo img{
+#ProcessoArtesanal{
+    background-color: #f5efe6;
+    color: #4b2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    
+}
+
+#ProcessoArtesanal h2{
+    font-family: "Anton SC", sans-serif;
+    font-size: 48px;
+    margin-top: 80px;
+    text-align: center;
+  
+}
+
+#ProcessoArtesanal p{
+    color: #4b2e2e;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.cartões-Processo img{
     width: 200px;
     height: 200px;
 }
 
+.cartões-Processo-Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    column-gap: 180px; /* Espaçamento maior entre as colunas */
+    row-gap: 20px; /* Espaçamento entre as linhas, sem alterações */
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+
+
 .cartões-Processo {
     padding: 10px;
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    margin-top: 50px;
+}
+
+.cartões-Processo h4 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 32px;
+}
+
+.cartões-Processo p {
+    font-size: 24px;
+    text-align: left;
+    
+}
+
+#Depoimentos-Clientes{
+    background-color: #fff;
+    color: #4b2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 80vh;
+}
+
+#Depoimentos-Clientes h2 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 60px;
 }
 
 .cartões-Depoimentos{
-    padding: 10px;
-    background-color: #f5efe6;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    width: 250px;
-    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+    max-width: 800px;
+    width: 100%;
 }
 
-#Produtos{
+.Depoimentos {
+    padding: 15px;
+    background-color: #f5efe6;
+    border-radius: 10px;
+    border: 2px solid #4b2e2e;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.Depoimentos p {
+    color: #4b2e2e;
+    text-align: left;
+}
+
+.Depoimentos p:first-child{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.Depoimentos p:last-child{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+/*#Produtos{
     background-color: #f5efe6;
 }
 
