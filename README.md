@@ -64,7 +64,5 @@ Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contat
 - GitHub: https://github.com/seu-usuario
 
 
-<<<<<<< HEAD
-=======
 
 >>>>>>> 6570cf532ee9e87811ef47f5af578d6123508723
