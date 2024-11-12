@@ -12,13 +12,13 @@
             <span id="logo">CaféTerra</span>
             <nav>
                 <ul>
-                    <li><a href="#">Blends</a></li>
-                    <li><a href="#">Nós</a></li>
-                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#NossosBlends">Blends</a></li>
+                    <li><a href="#Produtos">Produtos</a></li>
+                    <li><a href="#Depoimentos-Clientes">Depoimentos</a></li>
                 </ul>
             </nav>
-            <div id="Contato">
-                <a href="#">Contato</a>
+            <div class="Contato">
+                <a href="#Contato">Contato</a>
             </div>
         </header>
 
@@ -33,26 +33,26 @@
         <h2>Nossos Blends</h2>
         <p>Conheça nossas misturas únicas de grãos, torrados para extrair o melhor sabor e aroma em cada xícara.</p>
 
-        <ul class="cartoes-blends">
-            <li class="blend">
+        <div class="cartoes-blends">
+            <div class="blend">
                 <img src="./images/blend-supremo.jpg" alt="">
                 <h4>Blend Supremo</h4>
                 <p>Intensidade pura com notas de chocolate amargo e caramelo.</p>
                 <button>Saiba mais</button>
-            </li>
-            <li class="blend">
+            </div>
+            <div class="blend">
                 <img src="./images/blend-especial-verão.jpg" alt="">
-                <h4>Blend Suave</h4>
+                <h4>Blend Especial de Verão</h4>
                 <p>Refrescante e suave, com um toque sutil de limão.</p>
                 <button>Saiba mais</button>
-            </li>
-            <li class="blend">
+            </div>
+            <div class="blend">
                 <img src="./images/café-intenso.jpg" alt="">
                 <h4>Café Intenso</h4>
                 <p>Sabor profundo e equilibrado, com um toque suave de amêndoas e baunilha.</p>
                 <button>Saiba mais</button>
-            </li>
-        </ul>
+            </div>
+        </div>
         <p id="chamada-blend">Pronto para descubrir o blend perfeito? Fale com a gente e leve o melhor do café para o seu dia.</p>
         <button>Entre em contato</button>
     </section>
@@ -130,8 +130,8 @@
                 <h4>Blend tradiconal</h4>
                 <p>Café clássico, com sabor equilibrado e corpo médio. ótimo para o dia a dia.</p>
                 <div class="produto-footer">
-                    <span>R$ 19,90</span>
-                    <button>Saiba mais</button>
+                     <span>R$ 19,90</span>
+                     <button>Saiba mais</button>
                 </div>
             </div>
         </div>
@@ -139,33 +139,42 @@
     </section>
 
     <footer>
-        <section>
-            <h3>CaféTerra</h3>
-            <p>Café Terra traz os melhores blends selecionados, pensado especialmente para você, direto das fazendas mais tradicionais.</p>
-        </section>
-        <section>
-            <h3>Menu rápido</h3>
-            <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">Blends Especiais</a></li>
-                <li><a href="">Processo Artesanal</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </section>
-        <section>
-            <form action="" method="post">
-                <input type="text" name="nome" id="nome" placeholder="Nome" required>
-                <input type="email" name="email" id="email" placeholder="Email" required>
-                <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem" required>
-                <button>Enviar</button>
-            </form>
-        </section>
-        <section>
-            <p>contato@cafeterra.com</p>
-            <p>(19) 1234-5678</p>
-            <a href="images/"></a>
-            <a href="images/"></a>
-        </section>
+        <div class="footer-coluna cafe-terra">
+            <section>
+                <h3>CaféTerra</h3>
+                <p>Café Terra traz os melhores blends selecionados, pensado especialmente para você, direto das fazendas mais tradicionais.</p>
+            </section>
+            <section>
+                <h3>Menu rápido</h3>
+                <ul>
+                    <li><a href="#cabeçalho">Início</a></li>
+                    <li><a href="#NossosBlends">Blends Especiais</a></li>
+                    <li><a href="#ProcessoArtesanal">Processo Artesanal</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="footer-coluna">
+            <section id="Contato">
+                <h3 class="footer-coluna-contato">Entre em Contato</h3>
+                <form action="" method="post">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+                    <button>Enviar</button>
+                </form>
+            </section>
+        </div>
+        
+        <div class="footer-coluna">
+            <section class="footer-redes">
+                <p>contato@cafeterra.com</p>
+                <p>(19) 1234-5678</p>
+                <a href="#"><img src="./images/🦆 emoji _instagram emoji_.png" alt=""></a>
+                <a href="#"><img src="./images/🦆 icon _twitter_.png" alt=""></a>
+            </section>
+        </div>     
     </footer>
 
 </body>

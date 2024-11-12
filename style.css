@@ -69,10 +69,22 @@ ul li a {
     font-weight: 600;
 }
 
-#Contato a {
+ul li a:hover{
+    background-color: #4b2e2e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Contato a {
     color: #4b2e2e;
     text-decoration: none;
     font-weight: 600;
+}
+
+.Contato a:hover{
+    background-color: #f5efe6;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #cabeçalho-conteudo {
@@ -109,10 +121,15 @@ button {
     background-color: #f5efe6;
     color: #4b2e2e;
     font-size: 18px;
-    border: #4b2e2e;
+    border: 2px solid #4b2e2e;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #d1c1b6;
 }
 
 #NossosBlends {
@@ -199,6 +216,10 @@ button {
     margin-top: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+#NossosBlends button:hover{
+    background-color: #aab992;
 }
 
 #ProcessoArtesanal{
@@ -422,4 +443,124 @@ button {
 
 .cartões-Produtos button:hover {
     background-color: #aab992;
+}
+
+footer {
+    background-color: #4b2e2e;
+    color: #f5efe6;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    gap: 30px;
+}
+
+.footer-coluna {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-coluna section {
+    margin-bottom: 20px;
+
+}
+
+.footer-coluna.cafe-terra{
+    max-width: 300px;
+    text-align: left;
+}
+
+footer h3 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #f5efe6;
+}
+
+.footer-coluna-contato  {
+    text-align: center;
+}
+
+
+footer p, footer ul, footer form {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer ul li a {
+    color: #f5efe6;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover{
+    color: #d1c1b6;
+}
+
+footer form input,
+footer form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer form input {
+    background-color: #4b2e2e;
+    color: #f5efe6;
+    border: 1px solid #f5efe6;
+    height: 40px;
+}
+
+footer form #mensagem {
+    width: 100%;
+    height: 100px; /* Altura aumentada para o campo de "Mensagem" */
+    border-radius: 10px;
+    border: 1px solid #f5efe6;
+    background-color: #4b2e2e;
+    color: #f5efe6;
+    scroll-behavior: smooth;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+    color: #f5efe6;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+  }
+  
+footer form button {
+    background-color: #f5efe6;
+    color: #4b2e2e;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+footer form button:hover {
+    background-color: #d7d1c9;
+}
+
+footer section p {
+    margin-bottom: 8px;
+}
+
+footer a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    transition: opacity 0.3s;
+}
+
+footer a:hover img {
+    opacity: 0.8;
 }
