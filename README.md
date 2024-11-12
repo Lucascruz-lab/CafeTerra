@@ -4,7 +4,7 @@ Esta é uma landing page fictícia para a marca **Café Terra**, focada na venda
 
 ## Funcionalidades
 
-- **Design Responsivo:** A página foi projetada para ser visualizada corretamente em dispositivos móveis e desktop.
+- **Design Responsivo:** A página foi projetada para ser visualizada corretamente em dispositivos desktop.
 - **Seção de Blends Especiais:** Mostra diferentes blends de café com informações sobre cada um, incluindo imagens e descrições.
 - **Processo Artesanal:** Detalha o processo de produção artesanal dos cafés da marca.
 - **Depoimentos de Clientes:** Inclui opiniões de clientes sobre os produtos e o serviço.
