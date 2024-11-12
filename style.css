@@ -303,7 +303,7 @@ button {
     padding: 15px;
     background-color: #f5efe6;
     border-radius: 10px;
-    border: 2px solid #4b2e2e;
+    border: 1px solid #4b2e2e;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -325,15 +325,101 @@ button {
 
 
 
-/*#Produtos{
+#Produtos{
     background-color: #f5efe6;
+    color: #4b2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
 }
 
-.cartões-Produtos{
-    background-color: #fff;
-    padding: 10px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    width: 250px;
-    height: 200px;
+#Produtos h2{
+    font-family: "Anton SC", sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+
 }
-*/
+
+.Produtos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Duas colunas */
+    column-gap: 40px; /* Espaçamento entre as colunas */
+    row-gap: 20px; /* Espaçamento entre as linhas */
+    max-width: 800px;
+    width: 100%;
+}
+
+.cartões-Produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.produto-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.produto-footer span {
+    font-weight: bold;
+    color: #4b2e2e;
+}
+
+
+.cartões-Produtos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cartões-Produtos h4 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+    color: #4b2e2e;
+}
+
+.cartões-Produtos p {
+    font-size: 24px;
+    color: #4b2e2e;
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.cartões-Produtos span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4b2e2e;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.cartões-Produtos button {
+    padding: 8px 12px;
+    background-color: #e0e8d3;
+    color: #4b2e2e;
+    border: 1px solid #4b2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cartões-Produtos button:hover {
+    background-color: #aab992;
+}
